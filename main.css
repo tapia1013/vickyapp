@@ -524,6 +524,7 @@ body {
 .right-main .statics .bottom-stats {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 22px;
 }
 
 .right-main .statics .bottom-stats .bar-chart-img{
@@ -531,7 +532,7 @@ body {
 
 
 .right-main .statics .bottom-stats .bar-chart-img img{
-  width: 283px;
+  width: 250px;
   height: 108px;
 }
 
@@ -539,29 +540,169 @@ body {
   margin: 0 auto;
 }
 
+.right-main .statics .performance {
+  text-align: left;
+}
+
+.right-main .statics .performance h5 {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
 
 
+.right-main .statics .performance p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #767676;
+}
+
+.right-main .statics .performance .num-btns .btn {
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: orange;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+}
+
+.right-main .statics .performance .num-btns .btn-minus {
+  background: white;
+  border: 1.1px solid #bdbec4;
+  color: #1b1b1b;
+}
+
+/* top followers */
+.right-menu .followers {
+}
+
+.right-main .followers .top-followers {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-width: 90%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 20px;
+}
+
+.right-main .followers .top-followers h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.right-main .followers .top-followers .add-new {
+  padding-top: 4px;
+  text-align: right;
+}
+
+.right-main .followers .top-followers .add-new .add-new-link {
+  text-decoration: none;
+  color: #2b30db;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* person followers */
+.right-main .followers .person-followers {
+
+}
+
+.right-main .followers .person-followers .box-person {
+  display: grid;
+  grid-template-columns: 0fr 1fr 0.35fr;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px dashed #e4e4e4;
+  padding-bottom: 13px;
+  width: 100%;
+  max-width: 90%;
+}
 
 
+.right-main .followers .person-followers .box-person img {
+  border-radius: 10px;
+}
+
+.right-main .followers .person-followers .box-person p {
+  font-weight: 500;
+  font-size: 0.86rem;
+  padding-top: 8px;
+  text-align: left;
+  padding-left: 45px;
+  letter-spacing: 1px;
+}
+
+.right-main .followers .person-followers .box-person .fas {
+  color: #2b30db;
+  font-size: 1.2rem;
+  padding-top: 10px;
+  text-align: right;
+  cursor: pointer;
+}
+
+/* black box */
+.right-main .dark-box {
+  background-color: #2a2a32;
+  color: white;
+  border-radius: 35px;
+  padding: 25px 25px;
+  width: 100%;
+  max-width: 88%;
+  margin-top: 33px;
+}
 
 
+.right-main .dark-box p {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #bcbcbf;
+  letter-spacing: 1px;
+}
+
+.right-main .dark-box h4 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
 
 
+.right-main .dark-box .roundImg-container {
+  display: inline-block;
+  float: left;
+  padding-bottom: 20px;
+}
 
+.right-main .dark-box .roundImg-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+.right-main .dark-box .roundImg-container .image {
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.right-main .dark-box .orng-circle {
+  background: orange;
+  /* width: 20px;
+  height: 20px; */
+  display: inline-block;
+  border-radius: 10px;
+  padding: 3px 6px;
+  margin-left: 150px;
+}
 
 
 
